@@ -1,0 +1,57 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+nav+.container{
+    width: auto;
+    height: 80vh;
+    border: 1px solid rgb(38, 0, 255);
+    border-radius: .3rem;
+    overflow-y: auto;
+}
+
+.send_box{
+    width: auto;
+    margin-top: .8rem;
+    display: flex;
+}
+
+.myCard{
+    display: flex !important;
+    flex-direction: row;
+    width: 50%;
+    margin: .5rem 0rem;
+    padding: .4rem;
+    border: .15rem solid rgb(1, 153, 255);
+}
+
+.myCard b{
+    margin-right: .5rem;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.center {
+    display: block;
+    clear: both;
+    width: max-content; 
+    padding: .4rem 1rem;
+    margin: .5rem auto;
+}
+
+.join{
+    border: .15rem solid rgb(83, 223, 2);
+}
+.leave{
+    border: .15rem solid rgb(204, 18, 18);
+}
